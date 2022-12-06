@@ -1,0 +1,14 @@
+import java.util.*;
+class Example {
+    public static void main(String[] args) {
+        int l,w,a,p;
+        System.out.println("Enter the lenght and width of the ground");
+        Scanner sc=new Scanner (System.in);
+        l=sc.nextInt();
+        w=sc.nextInt();
+        a=l*w;
+        p=2*(l+w);
+        System.out.println(" the area of cover required is "+a);
+        System.out.println(" the perimeter of is "+p);     
+    }
+}
